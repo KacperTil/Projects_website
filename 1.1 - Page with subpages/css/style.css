@@ -6,6 +6,34 @@
 
 body {
 	height: 100vh;
-	font-size: 30px;
 	font-family: "Raleway", sans-serif;
+}
+
+.nav {
+	/* POZBYCIE SIĘ PRZERW MIĘDZY ELEMENTAMI */
+	font-size: 0;
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.nav-item a {
+	/* PONOWNE USTAWIENIE WIELKOŚCI */
+	font-size: 16px;
+	color: white;
+	padding: 0 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: color 0.3s;
+}
+
+.nav-item a:hover {
+	color: rgb(3, 69, 235);
 }
