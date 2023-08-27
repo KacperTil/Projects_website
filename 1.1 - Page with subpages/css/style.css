@@ -9,6 +9,7 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
+/*          NAV        */
 .nav {
 	/* POZBYCIE SIĘ PRZERW MIĘDZY ELEMENTAMI */
 	font-size: 0;
@@ -25,7 +26,7 @@ body {
 .nav-item a {
 	/* PONOWNE USTAWIENIE WIELKOŚCI */
 	font-size: 16px;
-	color: white;
+	color: peachpuff;
 	padding: 0 50px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -36,4 +37,46 @@ body {
 
 .nav-item a:hover {
 	color: rgb(3, 69, 235);
+}
+
+/*           HEADER            */
+.header-img {
+	position: relative;
+	height: 150px;
+	background-image: url("../img/bg_cosmos.jpg");
+	background-size: cover;
+	background-position: 0 65%;
+}
+
+.header-text {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: peachpuff;
+}
+
+.header-text h1 {
+	margin-bottom: 10px;
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.header-text p {
+	font-size: 16px;
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.header-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(40, 40, 40, 0.3);
 }
