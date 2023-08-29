@@ -179,6 +179,21 @@ main ul li {
 	margin: 8px 0px;
 }
 
+.contact-box {
+	margin: 25px 0;
+	line-height: 40px;
+	text-align: center;
+	font-size: 26px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.contact-icon {
+	margin-right: 10px;
+	line-height: 40px;
+	color: #333;
+}
+
 .square-container {
 	position: relative;
 	margin: 50px 0px 80px 120px;
