@@ -110,6 +110,36 @@ main {
 	text-align: center;
 }
 
+.second-product {
+	position: relative;
+	margin-top: 15px;
+	height: 300px;
+	background-image: url("../img/keyboard_small.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.third-product {
+	position: relative;
+	margin-top: 15px;
+	height: 300px;
+	background-image: url("../img/woman_small.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.fourth-product {
+	position: relative;
+	margin-top: 15px;
+	height: 300px;
+	background-image: url("../img/laptop_small.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
 .product h3 {
 	text-transform: uppercase;
 }
