@@ -93,6 +93,7 @@ main {
 
 .about-us-info {
 	margin-bottom: 10px;
+	padding: 0 20px;
 }
 
 /* 				PRODUKTY			 */
@@ -101,48 +102,35 @@ main {
 	margin: 60px auto;
 }
 
-.first-product {
+.product {
 	position: relative;
 	height: 300px;
-	background-image: url("../img/children_small.jpg");
 	background-size: cover;
 	background-position: center;
 	text-align: center;
+}
+
+.first-product {
+	background-image: url("../img/children_small.jpg");
 }
 
 .second-product {
-	position: relative;
-	margin-top: 15px;
-	height: 300px;
 	background-image: url("../img/keyboard_small.jpg");
-	background-size: cover;
-	background-position: center;
-	text-align: center;
 }
 
 .third-product {
-	position: relative;
-	margin-top: 15px;
-	height: 300px;
 	background-image: url("../img/woman_small.jpg");
-	background-size: cover;
-	background-position: center;
-	text-align: center;
 }
 
 .fourth-product {
-	position: relative;
-	margin-top: 15px;
-	height: 300px;
 	background-image: url("../img/laptop_small.jpg");
-	background-size: cover;
-	background-position: center;
-	text-align: center;
 }
 
 .product h3 {
 	text-transform: uppercase;
 }
+
+/* 			BRAKE POINTS			 */
 
 @media (min-width: 768px) {
 	.burger-icon {
@@ -177,6 +165,21 @@ main {
 
 	.hero-text p {
 		font-size: 16px;
+	}
+
+	.product h3 {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 992px) {
+	.products-box {
+		font-size: 0;
+	}
+
+	.product {
+		display: inline-block;
+		width: 50%;
 	}
 }
 
