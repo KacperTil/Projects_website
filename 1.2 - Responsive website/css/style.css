@@ -43,6 +43,12 @@ body {
 	color: #09f;
 }
 
+.section-title {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 /* 			NAVIGATION			 */
 
 nav {
@@ -75,6 +81,37 @@ nav {
 	height: 330px;
 	background-size: cover;
 	background-position: center;
+}
+
+/*				 MAIN			 	*/
+
+main {
+	margin: 60px 0;
+}
+
+/*				 O NAS				 */
+
+.about-us-info {
+	margin-bottom: 10px;
+}
+
+/* 				PRODUKTY			 */
+
+.products {
+	margin: 60px auto;
+}
+
+.first-product {
+	position: relative;
+	height: 300px;
+	background-image: url("../img/children_small.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.product h3 {
+	text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
