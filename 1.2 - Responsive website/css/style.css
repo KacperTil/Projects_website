@@ -130,6 +130,25 @@ main {
 	text-transform: uppercase;
 }
 
+/* 			KONTAKT			 */
+
+.contact {
+	text-align: center;
+}
+
+.contact h3 {
+	text-transform: uppercase;
+	margin: 20px 0 5px;
+}
+
+/*			 FOOTER			 */
+
+footer {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #ddd;
+}
+
 /* 			BRAKE POINTS			 */
 
 @media (min-width: 768px) {
