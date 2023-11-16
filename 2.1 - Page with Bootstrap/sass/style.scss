@@ -14,8 +14,18 @@ nav {
 	letter-spacing: 3px;
 	.nav-link,
 	.navbar-nav .nav-link.active,
-	.navbar-nav .nav-link.show,
-	.navbar-brand {
+	.navbar-nav,
+	.navbar-brand,
+	.fa-bars {	
 		color: #fff;
+	}
+	.nav-link:focus,
+	.nav-link:hover,
+	.navbar-nav .nav-link.active,
+	.navbar-nav .show > .nav-link {
+		color: #039dff;
+	}
+	i {
+		font-style: normal;
 	}
 }

@@ -15,7 +15,17 @@ nav {
 }
 nav .nav-link,
 nav .navbar-nav .nav-link.active,
-nav .navbar-nav .nav-link.show,
-nav .navbar-brand {
+nav .navbar-nav,
+nav .navbar-brand,
+nav .fa-bars {
   color: #fff;
+}
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .show > .nav-link {
+  color: #039dff;
+}
+nav i {
+  font-style: normal;
 }/*# sourceMappingURL=style.css.map */
