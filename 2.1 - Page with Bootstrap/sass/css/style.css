@@ -7,4 +7,15 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #333;
+}
+
+nav {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+nav .nav-link,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show,
+nav .navbar-brand {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
