@@ -11,7 +11,7 @@ body {
 
 nav {
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 nav .nav-link,
 nav .navbar-nav .nav-link.active,
