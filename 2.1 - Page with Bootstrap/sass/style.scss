@@ -12,6 +12,19 @@ body {
 }
 
 nav {
+	.navbar-toggler {
+		padding: 10px 15px;
+	}
+
+	.navbar-brand {
+		font-weight: bold;
+	}
+
+	.navbar-brand:hover,
+	.navbar-brand:focus {
+		color: c.$main-color;
+	}
+
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	.nav-link,

@@ -13,6 +13,16 @@ nav {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+nav .navbar-toggler {
+  padding: 10px 15px;
+}
+nav .navbar-brand {
+  font-weight: bold;
+}
+nav .navbar-brand:hover,
+nav .navbar-brand:focus {
+  color: #039dff;
+}
 nav .nav-link,
 nav .navbar-nav .nav-link.active,
 nav .navbar-nav,
