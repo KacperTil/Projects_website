@@ -85,3 +85,9 @@ header.hero-img {
 		height: 100%;
 	}
 }
+
+@media (min-width: 1200px) {
+	header.hero-img {
+		background-image: url("./../../img/hero_1920.jpg");
+	}
+}
