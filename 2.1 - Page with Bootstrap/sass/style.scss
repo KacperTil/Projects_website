@@ -84,6 +84,13 @@ header.hero-img {
 		flex-direction: column;
 		height: 100%;
 	}
+
+	.fa-chevron-down {
+		position: absolute;
+		bottom: 20px;
+		font-size: 30px;
+		color: c.$white-color;
+	}
 }
 
 @media (min-width: 1200px) {
