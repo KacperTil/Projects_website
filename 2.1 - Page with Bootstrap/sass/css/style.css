@@ -82,6 +82,14 @@ header.hero-img .fa-chevron-down {
   color: #fff;
 }
 
+@media (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 42px;
+  }
+  .hero-text p {
+    font-size: 22px;
+  }
+}
 @media (min-width: 1200px) {
   header.hero-img {
     background-image: url("./../../img/hero_1920.jpg");
