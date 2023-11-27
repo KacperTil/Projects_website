@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 75px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #333;
@@ -33,7 +37,7 @@ body {
 
 nav {
   z-index: 2;
-  transition: 0.6s;
+  transition: background-color 0.6s;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -108,6 +112,13 @@ header.hero-img .fa-chevron-down {
   font-size: 18px;
   text-transform: uppercase;
 }
+.aboutus .row > div {
+  transition: color 0.6s;
+}
+.aboutus .row > div:hover {
+  color: #039dff;
+  transition: color 0.6s;
+}
 .aboutus .aboutus-card-text {
   font-size: 14px;
 }
@@ -118,6 +129,11 @@ header.hero-img .fa-chevron-down {
   }
   .hero-text p {
     font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 72px;
   }
 }
 @media (min-width: 1200px) {
