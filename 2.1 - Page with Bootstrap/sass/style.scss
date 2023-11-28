@@ -115,7 +115,18 @@ header.hero-img {
 	}
 }
 
+.aboutus,
+.aboutus-hero {
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+}
+
 .aboutus {
+	.aboutus-card-title {
+		text-transform: uppercase;
+	}
+
 	i {
 		margin-top: 20px;
 		font-size: 30px;
@@ -123,7 +134,6 @@ header.hero-img {
 
 	.aboutus-card-title {
 		font-size: 18px;
-		text-transform: uppercase;
 	}
 
 	.row > div {
@@ -133,10 +143,6 @@ header.hero-img {
 	.row > div:hover {
 		color: c.$main-color;
 		transition: color 0.6s;
-	}
-
-	.aboutus-card-text {
-		font-size: 14px;
 	}
 }
 
@@ -156,6 +162,15 @@ header.hero-img {
 		height: 100%;
 		background-color: rgba(0, 0, 0, 0.7);
 		z-index: -5;
+	}
+
+	.aboutus-card-title {
+		font-size: 24px;
+	}
+
+	i {
+		margin-top: 10px;
+		font-size: 36px;
 	}
 }
 

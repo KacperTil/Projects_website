@@ -104,13 +104,20 @@ header.hero-img .fa-chevron-down {
   color: #fff;
 }
 
+.aboutus .aboutus-card-text,
+.aboutus-hero .aboutus-card-text {
+  font-size: 14px;
+}
+
+.aboutus .aboutus-card-title {
+  text-transform: uppercase;
+}
 .aboutus i {
   margin-top: 20px;
   font-size: 30px;
 }
 .aboutus .aboutus-card-title {
   font-size: 18px;
-  text-transform: uppercase;
 }
 .aboutus .row > div {
   transition: color 0.6s;
@@ -118,9 +125,6 @@ header.hero-img .fa-chevron-down {
 .aboutus .row > div:hover {
   color: #039dff;
   transition: color 0.6s;
-}
-.aboutus .aboutus-card-text {
-  font-size: 14px;
 }
 
 .aboutus-hero {
@@ -139,6 +143,13 @@ header.hero-img .fa-chevron-down {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -5;
+}
+.aboutus-hero .aboutus-card-title {
+  font-size: 24px;
+}
+.aboutus-hero i {
+  margin-top: 10px;
+  font-size: 36px;
 }
 
 @media (min-width: 768px) {
