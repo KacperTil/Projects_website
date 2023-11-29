@@ -152,6 +152,22 @@ header.hero-img .fa-chevron-down {
   font-size: 36px;
 }
 
+.portfolio .carousel-item {
+  height: 600px;
+}
+.portfolio .carousel-item img {
+  height: 100%;
+}
+.portfolio .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.8);
+  right: 0;
+  left: 0;
+  padding: 30px 0;
+}
+.portfolio .carousel-indicators {
+  padding-bottom: 15px;
+}
+
 @media (min-width: 768px) {
   .hero-text h1 {
     font-size: 42px;
