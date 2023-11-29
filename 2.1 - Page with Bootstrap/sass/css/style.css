@@ -152,6 +152,11 @@ header.hero-img .fa-chevron-down {
   font-size: 36px;
 }
 
+.portfolio .card img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .portfolio .carousel-item {
   height: 600px;
 }
