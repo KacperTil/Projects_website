@@ -157,6 +157,8 @@ header.hero-img .fa-chevron-down {
 }
 .portfolio .carousel-item img {
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .portfolio .carousel-caption {
   background-color: rgba(0, 0, 0, 0.8);
