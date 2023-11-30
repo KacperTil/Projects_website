@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #333;
+  background-color: #ebecf2;
 }
 
 .blue-text::before {
@@ -173,6 +173,18 @@ header.hero-img .fa-chevron-down {
 }
 .portfolio .carousel-indicators {
   padding-bottom: 15px;
+}
+
+.prices .underline-section {
+  background-color: #b2b2b2;
+  margin: 0 auto 0;
+  height: 1px;
+  width: 300px;
+  border-radius: 2px;
+}
+.prices .row div {
+  margin: 0 auto 15px;
+  font-size: 18px;
 }
 
 @media (min-width: 768px) {
