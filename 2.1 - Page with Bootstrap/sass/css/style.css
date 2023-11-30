@@ -175,16 +175,37 @@ header.hero-img .fa-chevron-down {
   padding-bottom: 15px;
 }
 
+.prices .price-box {
+  margin: 20px;
+}
 .prices .underline-section {
   background-color: #b2b2b2;
   margin: 0 auto 0;
   height: 1px;
-  width: 300px;
+  width: 100%;
   border-radius: 2px;
 }
-.prices .row div {
-  margin: 0 auto 15px;
+.prices .price-box p {
   font-size: 18px;
+  margin: 15px 0;
+}
+.prices .price-box p span {
+  font-weight: bolder;
+}
+.prices .price-box p i {
+  font-size: 24px;
+}
+.prices .btn {
+  font-size: 20px;
+  margin: 10px;
+}
+.prices #price-title {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.prices #price-tag {
+  font-weight: bolder;
+  font-size: 24px;
 }
 
 @media (min-width: 768px) {
