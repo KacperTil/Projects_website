@@ -177,6 +177,14 @@ header.hero-img .fa-chevron-down {
 
 .prices .price-box {
   margin: 20px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  transition: scale 0.3s;
+}
+.prices .price-box:hover {
+  scale: 1.05;
 }
 .prices .underline-section {
   background-color: #b2b2b2;
@@ -193,19 +201,30 @@ header.hero-img .fa-chevron-down {
   font-weight: bolder;
 }
 .prices .price-box p i {
+  padding: 0 5px;
   font-size: 24px;
 }
 .prices .btn {
+  margin: 5px;
+  padding: 10 20px;
   font-size: 20px;
-  margin: 10px;
+  text-transform: uppercase;
+}
+.prices .price-info {
+  margin-top: 30px;
+}
+.prices .price-info a {
+  text-decoration: none;
 }
 .prices #price-title {
   font-weight: bolder;
   font-size: 20px;
+  text-transform: uppercase;
+  color: #039dff;
 }
 .prices #price-tag {
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 @media (min-width: 768px) {
