@@ -257,6 +257,9 @@ header.hero-img .fa-chevron-down {
 .team .card i {
   padding: 10px;
 }
+.team .card-body {
+  height: 160px;
+}
 .team .card:hover {
   scale: 0.96;
 }
