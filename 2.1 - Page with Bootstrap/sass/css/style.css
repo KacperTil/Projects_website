@@ -262,6 +262,7 @@ header.hero-img .fa-chevron-down {
 }
 .team .card-title {
   margin-bottom: 20px;
+  text-align: center;
   text-transform: uppercase;
 }
 
