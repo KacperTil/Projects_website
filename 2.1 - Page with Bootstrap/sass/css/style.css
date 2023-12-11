@@ -246,6 +246,24 @@ header.hero-img .fa-chevron-down {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
+.team .card {
+  transition: scale 0.3s;
+}
+.team .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.team .card i {
+  padding: 10px;
+}
+.team .card:hover {
+  scale: 0.96;
+}
+.team .card-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
 
 @media (min-width: 768px) {
   .hero-text h1 {

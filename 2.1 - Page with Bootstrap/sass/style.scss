@@ -287,6 +287,28 @@ header.hero-img {
 		background-color: rgba(0, 0, 0, 0.7);
 		z-index: -1;
 	}
+
+	.card {
+		transition: scale 0.3s;
+
+		img {
+			height: 300px;
+			object-fit: cover;
+		}
+
+		i {
+			padding: 10px;
+		}
+	}
+
+	.card:hover {
+		scale: 0.96;
+	}
+
+	.card-title {
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
 }
 
 @media (min-width: 768px) {
